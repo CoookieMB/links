@@ -100,7 +100,7 @@ body {
     animation: animate 3s linear var(--delay) infinite;
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    -webkit-text-fill-color: rgba(106, 0, 128, 0);
 }
 
 
@@ -173,13 +173,13 @@ body {
 }
 
 .popup-quote {
-    font-family : Baskerville, Georgia, serif;
-    font-style : italic;
+    font-family : Helvetica, sans-serif, sans-serif;
+    font-style : bold;
     position: flex;
     color: var(--accentColor);
-    padding: 20px;
+    padding: 30px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .popup-photo {
